@@ -42,7 +42,7 @@ export const fetchLearnings = createAsyncThunk(
       return rejectWithValue("there is no Data");
     }
   }
-);
+);``
 
 const topicsSlice = createSlice({
   name: "topics",

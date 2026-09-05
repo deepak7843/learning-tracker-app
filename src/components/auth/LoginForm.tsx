@@ -20,7 +20,8 @@ import useInput from '../../hooks/useInput';
 import useAuth from '../../hooks/useAuth';
 import { toastService } from '../../utils/toast';
 
-const LoginForm: React.FC = () => {
+// const LoginForm: React.FC = () => {
+const LoginForm = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
   const [showPassword, setShowPassword] = React.useState(false);
